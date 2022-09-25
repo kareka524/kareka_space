@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet"  href="style.css">
+    <title>site</title>
+ 
+  
+</head>
+<body>
+  
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <header class="header">
+        <div class="navigation">
+            <ul>
+                <li class="list active">
+                    <a href="#main">
+                        <span class="header-icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#videos">
+                        <span class="header-icon">
+                            <ion-icon name="videocam-outline"></ion-icon>
+                        </span>
+                        <span class="text">Videos</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#Articles">
+                        <span class="header-icon">
+                            <ion-icon name="logo-wordpress"></ion-icon>
+                        </span>
+                        <span class="text">Articles</span>
+                    </a>
+                </li>
+                <li class="list active">
+                    <a href="#footer">
+                        <span class="header-icon">
+                            <ion-icon name="chevron-down-circle-outline"></ion-icon>
+                        </span>
+                        <span class="text">footer</span>
+                    </a>
+                </li>
+                <div class="Circle">
+
+                </div>
+            </ul>
+        </div>
+        <script>
+            var list =document.querySelectorAll('.list', );
+
+            function activelink () {
+                 list.forEach((item)=> item.classList.remove('active'));
+                 this.classList.add('active');
+                }
+                list.item(3).classList.remove('active');
+                list.forEach((item =>
+                item.addEventListener('click',activelink)));
+                
+        </script>
+        
+        
+    </header>
+
+    <section class="main"  id="main">
+        
+        <div class="main-nav">
+            <div class="toggle">
+                <span></span>
+            </div>
+            <ul>
+                <li style="--i:0"><a href="https://www.facebook.com/profile.php?id=100023823194702">facebook</a></li>
+                <li style="--i:1"><a href="https://wa.me/qr/4RLYABUSV2SQC1">whatsapp</a></li>
+                <li style="--i:2"><a href="https://preview.redd.it/z4x9s0jl5nu81.jpg?width=640&crop=smart&auto=webp&s=d66e90d9b240abde2b0477b73930a636b6b22e99">team</a></li>
+                <li style="--i:3"><a href="https://wa.me/qr/4RLYABUSV2SQC1">contact us</a></li>
+            </ul>
+        </div>
+        <script>
+
+            let navigation = document.querySelector('.main-nav');
+                document.querySelector('.toggle').onclick = function()
+                {
+                    this.classList.toggle('active');
+                    navigation.classList.toggle('active');
+                    item.addEventListener('click',activelink)
+                }
+        </script>
+       
+        <div class="main-content">
+            <h2 >Welcome to Kareka Space<br><span>A front end designer</span></h2>
+            <h3>Enjoy!</h3>
+            <a href="https://wa.me/qr/4RLYABUSV2SQC1" class="main-btn">Contact Us</a>
+        </div>
+    </section>
+    <section class="videos" id="videos">
+      <div class="tittle-border"> 
+        <h2 class="tittle"> videos </h2>
+    </div> 
+    <div class="content">
+        <div class="videos-cards">
+            <div class="video-image1">
+
+            </div>
+            <div class="video-text">
+                <span class="date"> 1 day ago</span>
+                <h2>James Webb</h2>
+                <p>Science of the James Webb Telescope Explained!</p>
+                <a class="icon" href="https://www.youtube.com/watch?v=ssuE_9pdafI" >   <ion-icon name="arrow-forward-outline"></ion-icon></a>
+            </div>
+            <div class="video-stats">
+                <div class="stats">
+                    <div class="value"><sub>Views</sub> </div>
+                    <div class="type">11k</div>
+                </div>
+                <div class="stats border">
+                    <div class="value">Likes</div>
+                    <div class="type">269</div>
+                </div>
+                <div class="stats">
+                    <div class="value">Comments</div>
+                    <div class="type">18</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="videos-cards">
+            <div class="video-image2">
+
+            </div>
+            <div class="video-text">
+                <span class="date"> 2 weeks ago</span>
+                <h2>Univers Facts</h2>
+                <p>James Webb Telescope FINALLY Proves The Big Bang Theory Is Wrong!</p>
+                <a class="icon" href="https://www.youtube.com/watch?v=vAxgaTvYA7Y" >   <ion-icon name="arrow-forward-outline"></ion-icon></a>
+            </div>
+            <div class="video-stats">
+                <div class="stats">
+                    <div class="value"><sub>views</sub> </div>
+                    <div class="type">3.5m</div>
+                </div>
+                <div class="stats border">
+                    <div class="value">Likes</div>
+                    <div class="type">72k</div>
+                </div>
+                <div class="stats">
+                    <div class="value">Comments</div>
+                    <div class="type">43</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="videos-cards">
+            <div class="video-image3">
+
+            </div>
+            <div class="video-text">
+                <span class="date"> 1 year ago</span>
+                <h2>black holes </h2>
+                <p>50+ Facts About Space Will Scare and Amaze You</p>
+                <a class="icon" href="https://www.youtube.com/watch?v=apCIHrIAtU4" >   <ion-icon name="arrow-forward-outline"></ion-icon></a>
+            </div>
+            <div class="video-stats">
+                <div class="stats">
+                    <div class="value"><sub>Views</sub> </div>
+                    <div class="type">1m</div>
+                </div>
+                <div class="stats border">
+                    <div class="value">Likes</div>
+                    <div class="type">unknowing</div>
+                </div>
+                <div class="stats">
+                    <div class="value">Comments</div>
+                    <div class="type">690</div>
+                </div>
+            </div>
+
+        </div>
+
+
+      
+    </div>
+    </section>
+
+    <section class="Articles" id="Articles">
+        <div class="Atittle-border"> 
+            <h2 class="articale-tittle"> Articles </h2>
+        </div> 
+    <div class="content">
+        <div class="Article-cards">
+            <div class="Article-circle"></div>
+            <div class="Article-image0">
+
+            </div>
+            <div class="Article-text">
+                <span class="date"> 1 year ago</span>
+                <h2>NASA science</h2>
+                <p>Don't let the name fool you: a black hole is anything but empty space. Rather, it is a great amount of matter packed into a very small area </p>
+                <a class="icon" href="#" >   <ion-icon name="arrow-forward-outline"></ion-icon></a>
+            </div>
+            <div class="Article-stats">
+                <div class="stats">
+                    <div class="value"><sub>Black Holes </sub> </div>
+                    <div class="type"> <a class="link" href="https://science.nasa.gov/astrophysics/focus-areas/black-holes"> READ MORE</a></div>
+                </div>
+              
+            </div>
+
+        </div>
+        <div class="Article-cards">
+            <div class="Article-image1">
+
+            </div>
+            <div class="Article-text">
+                <span class="date"> 6 Months ago</span>
+                <h2>NASA science</h2>
+                <p>Stars are the most widely recognized astronomical objects, and represent the most fundamental building blocks of galaxies. The age, distribution, and composition of the stars in a galaxy trace the history</p>
+            </div>
+            <div class="Article-stats">
+                <div class="stats">
+                    <div class="value"><sub>Stars</sub> </div>
+                    <div class="type"><a class="link" href="https://www.nasa.gov/topics/starsgalaxies/index.html">READ MORE</a></div>
+                </div>
+              
+            </div>
+
+        </div>
+       
+        
+    </div>
+    </section>
+    <footer class="footer" id="footer">
+        <p class="footer-tittle">made by <span>@Kareka</span></p>
+   </footer>
+   
+</body>
+</html> 
